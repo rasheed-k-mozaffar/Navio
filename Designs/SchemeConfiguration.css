@@ -20,10 +20,10 @@ have to do is configure the root element here , all designs will reference this 
 :root {
 
     /* COLORS */
-    --main-color: #2277C7;
-    --secondary-color: #E26E3C;
+    --main-color: #1888f1;
+    --secondary-color: #f8ad0b;
     --links-color: #333333;
-    --dark-accents: #0054A2;
+    --dark-accents: #0066c6;
     --neutral-accents: #91C5C9;
 
     /* Transition Periods */

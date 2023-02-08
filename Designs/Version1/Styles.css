@@ -7,43 +7,41 @@
     transition: var(--medium-duration) ease;
 }
 
+
 .logo {
     font-size: var(--extraLarge-text);
 }
 
-.logo span {
-    color: var(--secondary-color);
-}
-
 .logo a {
     color: var(--main-color);
+    cursor: pointer;
 }
+
 
 .nav-list {
     display: flex;
     gap: 2.5rem;
 }
 
-.nav-list li a {
-    color: var(--links-color);
-    font-weight: 500;
-    font-size: var(--medium-text);
-
-    transition: var(--medium-duration) ease;
-}
-
 .nav-list li {
     transition: var(--medium-duration) ease;
 }
 
-/* TRANSITIONS*/
+.nav-list li a {
+    color: var(--links-color);
+    font-weight: 500;
+    font-size: var(--medium-text);
+    cursor: pointer;
 
-.nav-list li:hover {
-    transform: scale(1.25);
+    transition: var(--medium-duration) ease;
 }
+
+
+/* TRANSITIONS*/
 
 .nav-list li a:hover {
     color: var(--dark-accents);
+    transform: scale(1.05);
 }
 
 
