@@ -1,0 +1,40 @@
+/* IMPORT FONT FAMILY
+   POPPINS IS THE DEFAULT
+*/
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* RESETS */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppings', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+/*
+If you want to configure the color scheme and transition periods , all you 
+have to do is configure the root element here , all designs will reference this CSS file. 
+*/
+:root {
+
+    /* COLORS */
+    --main-color: #2277C7;
+    --secondary-color: #E26E3C;
+    --links-color: #333333;
+    --dark-accents: #0054A2;
+    --neutral-accents: #91C5C9;
+
+    /* Transition Periods */
+    --long-duration: .3s;
+    --medium-duration: .2s;
+    --short-duration: .1s;
+
+    /* FONT SIZES */
+    --extraLarge-text: 2rem;
+    --large-text: 1.5rem;
+    --medium-text: 1rem;
+    --small-text: .5rem;
+
+}
