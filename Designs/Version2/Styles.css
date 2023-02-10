@@ -45,7 +45,7 @@
 /* BURGER MENU */
 #menu-icon {
     display: none;
-    font-size: var(--large-text);
+    font-size: var(--extraLarge-text);
     cursor: pointer;
     z-index: 10001;
 }
